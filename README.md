@@ -1,5 +1,5 @@
 # Discord Bot voter
-## Descript
+## Description
 ### This is a project to create a voter bot on Discord
 
 ## Build
@@ -12,7 +12,7 @@ token = "TOKEN" # change this line
 
 ## Command
 ### >createvote 
-#### create a vote in this channel, and the options should line up after it with space between them
+#### create a vote in this channel, and the vote name will be first parameter, options should line up after it with space between them
 ### >voteOne
 #### vote a option, the choice should add after it
 ### >voteSome
@@ -23,6 +23,9 @@ token = "TOKEN" # change this line
 #### delete the current vote in this channel, remember that this can't irreversible
 ### >v-status
 #### show the current channel's vote status
+### >intro
+#### intro myself~
+
 
 ## License
 ### The following actions are forbidden
